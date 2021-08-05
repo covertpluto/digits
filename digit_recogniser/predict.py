@@ -21,7 +21,7 @@ print(data)
 print(data.shape)
 
 
-model = tf.keras.models.load_model("digit_recognizer_.h5")
+model = tf.keras.models.load_model("digit_recognizer.h5")
 
 print(model.predict(data)[0])
 
